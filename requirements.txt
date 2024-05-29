@@ -1,0 +1,4 @@
+ultralytics==8.2.24
+rospkg==1.5.1
+onnx==1.16.1
+onnxruntime==1.15.1
