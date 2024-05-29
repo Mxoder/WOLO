@@ -82,9 +82,9 @@ BUAA 北航 2024 软工 软件工程 嵌入式 方向一 方向二 机器人应�
     ```sh
     # 先在工作目录下 make
     cd <workspace> && catkin_make
+    source devel/setup.sh
     
     # 方法一：单独跑检测器
-    source devel/setup.sh
     roslaunch yolo_detector main.launch
     
     # 方法二：将检测器作为 node 加入项目的主 launch 文件中
