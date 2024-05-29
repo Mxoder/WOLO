@@ -38,6 +38,9 @@ EOL
 # 清理原索引
 conda clean -i -y
 
+# 默认不启动 conda 环境
+conda config --set auto_active_base false
+
 # 配置 pip 源
 mkdir -p $HOME/.config/pip
 cat <<EOL > ~/.config/pip/pip.conf
