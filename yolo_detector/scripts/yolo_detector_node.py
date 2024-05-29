@@ -28,9 +28,6 @@ class YoloDetector:
 
         # device: cpu
         self.device = 'cpu'
-        # self.model = YOLO(weight_path, task='detect')
-        # self.model.fuse()               # 混合 BN 与相邻的卷积层，加快推理
-        # self.model.conf = model_conf
         self.model = None
         self._load_model(weight_path, model_conf)
 
