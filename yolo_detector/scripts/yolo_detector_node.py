@@ -1,4 +1,4 @@
-#!/home/yanhaojun/miniconda3/envs/yolo/bin/python
+#!/home/{{user_name}}/miniconda3/envs/yolo/bin/python
 # -*- coding: utf-8 -*-
 
 import os
